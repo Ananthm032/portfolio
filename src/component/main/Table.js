@@ -47,7 +47,7 @@ export default function CustomTable() {
               key={index}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
             >
-              <TableCell component="th" scope="row"  sx={{width:'500px'}} >
+              <TableCell component="th" scope="row"  sx={{width:'40vw'}} >
                 {row.name}
               </TableCell>
               <TableCell sx={{textAlign:'end'}}>{row.calories}</TableCell>

@@ -172,3 +172,51 @@ color: #afafaf;
     align-items: flex-start;
     gap:1em;
 }
+
+@media screen and (max-width:1024px){
+    :is(.main-section-3,.main-section-2){
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    :is(.section-3-right,.section-3-left) {
+        width: 65vw;
+    }
+    .cards{
+        width: 325px;
+        gap: 2em;
+        justify-content: center;
+    }
+    :is(.profit-image,.profit-image-1,.profit-image-2,.profit-image-3){
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 820px){
+.cards {
+    width: 385px;
+    gap: 4em;
+    height: 175px;
+    justify-content: center;
+}
+}
+@media screen and (max-width: 540px){
+    :is(.section-3-right,.section-3-left) {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    .sidebar-container{
+        display: none;
+    }
+    .main-content{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 420px){
+    .main-section-1{
+        height: auto;
+    }
+}
