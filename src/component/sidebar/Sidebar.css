@@ -1,0 +1,134 @@
+.sidebar-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 260px;
+    background-color: rgb(20 29 91);
+}
+.sidebar-main  {
+    padding: 0.5em;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.tp-1 {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+}
+.tp-1 h1{
+    font-weight: 500;
+    color: #fff;
+}
+.tp-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.tp-2 ul {
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+.tp-2 ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.tp-2 ul li a{
+    text-decoration: none;
+    color: #d5d2d2;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.tp-2 ul li a.active {
+    color: rgb(255, 255, 255);
+}
+.sidebar-tp-main  {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+   
+}
+.list_name {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.link_items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 0.5em;
+    color: #d5d2d2;
+    padding: 0.5em 1em;
+    justify-content: space-between;
+}
+.link_items.active{
+    background-color: #6565c7ba;
+    color: white;
+}
+.link-item {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.dropdown-content {
+    display: flex;
+    gap: 0.3em;
+    background-color: #6e6e83ba;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    padding: 1em;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+}
+.side-bt-main {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    padding-inline: 0.5em;
+    width: 100%;
+    border-radius: 0.5em;
+    background-color: #6565c7c2;
+    justify-content: space-between;
+}
+.side-bt-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5em;
+    justify-content: flex-start;
+}
+.side-bt-left img{
+    border-radius: 50%;
+}
+.Admin-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:0.3em;
+}
+.Admin-details h3{
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+.Admin-details p{
+    font-size: 0.75em;
+    color: rgb(236 236 236 / 68%);
+    font-weight: 400;
+}
